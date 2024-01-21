@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout_6</title>
+    <style>
+      .container {
+        max-height: 700px;
+        max-width: 989px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        background-color: #f5e0b3;
+      }
+
+      .header {
+        height: 80px;
+        width: 100%;
+        border: 1px solid #000;
+      }
+
+      .header h1 {
+        padding: 5px;
+        text-align: left;
+      }
+
+      .content {
+        height: 400px;
+        width: 100%;
+      }
+
+      .content .section,
+      .nav {
+        border: 1px solid #000;
+        padding: 5px;
+      }
+
+      .nav {
+        height: 50px;
+        width: calc(100% - 10px);
+      }
+
+      .nav h1 {
+        margin: 0;
+      }
+
+      .content .section {
+        float: left;
+        width: 70%;
+        height: 100%;
+      }
+
+      .content .section h1 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+      }
+
+      .article,
+      .content .aside {
+        text-align: left;
+        padding: 5px;
+      }
+
+      .article {
+        width: 96%;
+        height: 40%;
+        margin-left: 10px;
+        border: solid;
+      }
+
+      #art_1 {
+        background-color: #f4f2be;
+      }
+
+      #art_2 {
+        background-color: #e4d1cc;
+      }
+
+      .content .aside {
+        width: calc(30% - 24px);
+        height: 100%;
+        float: left;
+        border: 1px solid #000;
+      }
+
+      .footer {
+        height: 80px;
+        width: 100%;
+        border: 1px solid #000;
+        margin-top: 10px;
+      }
+
+      .footer h1,
+      .nav h1 {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"><h1>header</h1></div>
+      <div class="nav"><h1>nav</h1></div>
+      <div class="content">
+        <div class="section">
+          <h1>section</h1>
+          <div class="article" id="art_1">article</div>
+          <div class="article" id="art_2">article</div>
+        </div>
+        <div class="aside"><h1>aside</h1></div>
+      </div>
+      <div class="footer"><h1>footer</h1></div>
+    </div>
+  </body>
+</html>

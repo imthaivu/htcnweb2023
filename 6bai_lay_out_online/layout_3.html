@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout_3</title>
+    <style>
+      .container,
+      .header h1 {
+        padding: 0;
+        text-align: center;
+      }
+
+      .container {
+        height: auto;
+        width: 989px;
+        background-color: #fded9b;
+        margin: 0 auto;
+      }
+
+      .header,
+      .menu {
+        height: 80px;
+        width: 100%;
+        border: 1px solid #000;
+      }
+
+      .header h1 {
+        margin: 0;
+      }
+
+      .menu h1 {
+        margin: 0;
+      }
+
+      .content,
+      .footer {
+        height: 300px;
+        width: 100%;
+      }
+
+      .content .center,
+      .content .nav,
+      .content .section {
+        float: left;
+        width: 20%;
+        height: 100%;
+        border: 1px solid #000;
+      }
+
+      .content .nav h1,
+      .content .section h1 {
+        text-align: left;
+      }
+
+      .content .center,
+      .content .section {
+        width: auto;
+      }
+
+      .content .section {
+        float: right;
+        width: 20%;
+      }
+
+      .footer {
+        height: 100px;
+        border: 1px solid #000;
+      }
+
+      .footer h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"><h1>header</h1></div>
+      <div class="menu"><h1>menu</h1></div>
+
+      <div class="content">
+        <div class="nav"><h1>nav</h1></div>
+        <div class="center"></div>
+        <div class="section"><h1>section</h1></div>
+      </div>
+      <div class="footer"><h1>footer</h1></div>
+    </div>
+  </body>
+</html>

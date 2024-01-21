@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout_1</title>
+    <style>
+      .orange {
+        background-color: rgb(253, 202, 139);
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+      }
+      header,
+      footer {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        border: 1px solid black;
+      }
+      section {
+        flex: 9;
+        display: flex;
+        justify-content: left;
+        align-items: top;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="orange">Header</header>
+    <section class="orange">Section</section>
+    <footer class="orange">Footer</footer>
+  </body>
+</html>
