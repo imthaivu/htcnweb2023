@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>index</title>
+    <style>
+      p a {
+        text-decoration: none;
+        color: black;
+      }
+      footer {
+        margin-bottom: 30px;
+      }
+    </style>
   </head>
   <body>
     <div>
       <img src="./diamond.jpg" alt="" />
     </div>
     <hr />
-    <a href="">HomePage</a> ♦ <a href="">Facilities</a> ♦ <a href="">Classes</a> ♦
-    <a href="">Memberships</a> ♦ <a href="">Staff</a> ♦
-    <a href="">Hours</a>
+    <a href="./home.html">HomePage</a> ♦ <a href="#facilities">Facilities</a> ♦
+    <a href="./class.html">Classes</a> ♦ <a href="./member.html">Memberships</a> ♦
+    <a href="#Staff">Staff</a> ♦
+    <a href="#hour">Hours</a>
     <hr />
     <h1>Welcome</h1>
     <p>
@@ -32,7 +42,7 @@
       needs of any visitor. Temporary memberships also make great Christmas
       gifts.
     </p>
-    <h2>Facilities</h2>
+    <h2 id="facilities">Facilities</h2>
     <ul>
       <li>2 workout rooms</li>
       <li>Olympic size pool with at least 3 lanes always open</li>
@@ -43,22 +53,37 @@
       <li>3 racquetball courts</li>
       <li>On-site child care</li>
     </ul>
-    <h2>Hours</h2>
-    <p>Mon. - Fri. : 5 a.m. to 11 p.m.</p>
-    <p>Sat. : 7 a.m. to 8 p.m.</p>
-    <p>Sun. : 8 a.m. to 5 p.m.</p>
-    <h2>For More Information, E-mail our Staff</h2>
-    <p>Ty Stoven, General Manager</p>
-    <p>Yosef Dolen, Assistant Manager</p>
-    <p>Sue Myafin, Child Care</p>
-    <p>James Michel, Health Services</p>
-    <p>Ron Chi, Membership</p>
-    <p>Marcia Lopez, Classes</p>
+    <h2 id="hour">Hours</h2>
+    <p>
+      Mon. - Fri. : 5 a.m. to 11 p.m. <br />
+      Sat. : 7 a.m. to 8 p.m. <br />
+      Sun. : 8 a.m. to 5 p.m.
+    </p>
+    <h2 id="Staff">For More Information, E-mail our Staff</h2>
+    <p class="info-mail">
+      <a href="mailto:tstoven@dmond-health.com">Ty Stoven, General Manager</a>
+      <br />
+      <a href="mailto:ydolen@dmond-health.com"
+        >Yosef Dolen, Assistant Manager</a
+      >
+      <br />
+      <a href="mailto:smyafin@dmond-health.com">Sue Myafin, Child Care</a>
+      <br />
+      <a href="mailto:jmichel@dmond-health.com"
+        >James Michel, Health Services</a
+      >
+      <br />
+      <a href="mailto:rchi@dmond-health.com">Ron Chi, Membership</a> <br />
+      <a href="mailto:mlopez@dmond-health.com">Marcia Lopez, Classes</a> <br />
+    </p>
     <hr />
-    <b
-      >Diamond Health Club ♦ 4317 Alvin Way ♦ Boise, ID 83701 ♦ (208) 555-4398
-    </b>
-    <br />
-    <i>Your Year-Round Source for Fun Family Health</i>
+    <footer>
+      <hr />
+      <b
+        >Diamond Health Club ♦ 4317 Alvin Way ♦ Boise, ID 83701 ♦ (208) 555-4398
+      </b>
+      <br />
+      <i>Your Year-Round Source for Fun Family Health</i>
+    </footer>
   </body>
 </html>
