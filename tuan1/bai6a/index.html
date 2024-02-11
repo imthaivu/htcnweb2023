@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img src="./img/logo_6.png" alt="logo" />
+          <h1>Registration Form</h1>
+          <p>Register your Jackson Electronics product here</p>
+        </header>
+        <main>
+          <section id="section-1">
+            <label for="" class="w-label">First Name:</label>
+            <input type="text" size="15px" />
+            <label for="">Last Name:</label>
+            <input type="text" size="15px" />
+            <label for="" class="w-label">Address #1:</label>
+            <input type="text" size="20px" />
+            <label for="" class="w-label"> Address #2: </label>
+            <input type="text" size="20px" />
+            <label for="" class="w-label">City:</label>
+            <input type="text" size="17px" />
+            <label for="">State:</label>
+            <input type="text" size="5px" />
+            <label for="">Zip:</label>
+            <input type="text" size="8px" />
+            <label for="" class="w-label">Country:</label>
+            <input type="text" size="17px" value="United States" />
+          </section>
+          <hr />
+          <section id="section-2">
+            <label for="" class="w-label">Product:</label>
+            <select name="" id="">
+              <option value="volvo">volvo</option>
+              <option value="scanMaster">ScanMaster</option>
+            </select>
+            <br />
+            <label for="" class="w-label">Date Purchased:</label>
+            <input type="text" size="17px" />
+            <br />
+            <label for="" class="w-label">Serial #:</label>
+            <input type="text" size="17px" />
+
+            <div class="radio-section clearfix">
+              <label for="">Used for:</label>
+              <div class="radio-choice">
+                <input type="radio" name="radio-used-for" />
+                <label for="">Home</label>
+                <input type="radio" name="radio-used-for" />
+                <label for="" style="width: 150px"
+                  >Educational Institution</label
+                >
+                <br />
+                <input type="radio" name="radio-used-for" />
+                <label for="">Business</label>
+                <input type="radio" name="radio-used-for" />
+                <label for="">Other</label>
+                <br />
+                <input type="radio" name="radio-used-for" />
+                <label for="">Govemment</label>
+              </div>
+            </div>
+
+            <div class="checkbox-section clearfix">
+              <label for="" class="w-label"
+                >System (check all that apply):</label
+              >
+              <div class="check-box-side">
+                <input type="checkbox" />
+                <label for="">Windows</label>
+                <input type="checkbox" />
+                <label for="">UNIX</label>
+                <br />
+                <input type="checkbox" />
+                <label for="">Macintosh</label>
+                <input type="checkbox" />
+                <label for="">Other</label>
+              </div>
+            </div>
+          </section>
+
+          <hr />
+          <section id="section-3" class="clearfix">
+            <label for="">Comments ?:</label>
+            <div class="text-box-div">
+              <input type="text" class="text-box" />
+            </div>
+          </section>
+        </main>
+        <footer class="txt-center" style="margin-top: 10px ;">
+          <button>Click to register</button>
+          <button>Click to cancel</button>
+        </footer>
+      </div>
+    </div>
+
+    <!--        
+                     -->
+  </body>
+</html>
