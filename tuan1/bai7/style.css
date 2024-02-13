@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  margin: 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 60%;
+}
+ul,
+ol {
+  margin-left: 50px;
+}
+footer {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
