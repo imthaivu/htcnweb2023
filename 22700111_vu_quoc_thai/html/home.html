@@ -41,19 +41,24 @@
               has contributed greatly to the success of flowering plants.
             </p>
           </div>
-          <div class="infor">
-            <label for="">Name:</label> <br />
-            <input type="text" placeholder="Your name" /> <br />
-            <label for="">Email:</label> <br />
-            <input type="text" placeholder="Your email" /> <br />
-            <label for="">Gender</label><br />
-            <div> 
-                <label for="">Male:</label> <input type="radio" />
-            <label for="">Female:</label> <input type="radio" />
+          <form action="">
+            <div class="infor">
+              <label for="">Name:</label> <br />
+              <input type="text" placeholder="Your name" required /> <br />
+              <label for="">Email:</label> <br />
+              <input type="text" placeholder="Your email" required /> <br />
+              <label for="">Gender</label><br />
+              <div>
+                <label for="">Male:</label> <input type="radio" name="gent" />
+                <label for="">Female:</label> <input type="radio" name="gent" />
+              </div>
+              <div class="decide">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+              </div>
             </div>
-            <div class="decide"><input type="button" value="Submit" />
-            <input type="submit" value="Reset"></div>
-          </div>
+          </form>
+          
         </section>
         <aside>
           <h3>flower</h3>
@@ -64,9 +69,7 @@
           <img src="../hinh/Image20240225171012.jpg" alt="" />
         </aside>
       </div>
-      <footer>
-        22700111 - VŨ QUỐC THÁI
-      </footer>
+      <footer>22700111 - VŨ QUỐC THÁI</footer>
     </div>
   </body>
 </html>

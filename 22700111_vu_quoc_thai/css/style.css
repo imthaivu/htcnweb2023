@@ -79,13 +79,14 @@ section {
     rgb(82, 142, 160)
   );
   float: left;
-  height: 454px;
+  height: 100%;
 }
 aside {
   width: 30%;
   display: inline-block;
   background-color: white;
   border: 8px solid gray;
+  height: 100%;
 }
 section h1 {
   color: red;
@@ -117,7 +118,15 @@ section h1 {
 }
 .infor > input {
    margin-bottom: 20px;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 1px #ccc;
+   width: 90%;
 }
+.decide > input:hover {
+  background-color: rgb(156, 182, 242);
+}
+
 
 section .para {
   width: 50%;
