@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 80%;
+}
+/* header */
+header {
+  background-color: #294e79;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+header .header {
+  display: flex;
+}
+header img {
+  height: 90%;
+}
+header .header h1,
+header .header p {
+  line-height: 30px;
+}
+header .right-header {
+  position: relative;
+}
+header .search {
+  position: absolute;
+  right: 15px;
+}
+header .search input::placeholder,
+header .search button {
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+header nav ul {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+header nav ul li {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #3c76b4;
+}
+header nav ul li:hover {
+  background-color: blue;
+}
+header nav ul li a {
+  color: white;
+}
+/* main */
+
+main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main article {
+  width: 66%;
+
+}
+main article > h1 {
+  color: rgb(255, 217, 0);
+  border-bottom: 3px dotted orange;
+  margin-right: 30px;
+}
+main .separate {
+    display: flex;
+    justify-content: space-between;
+}
+main .article-left {
+  width: 50%;
+  padding: 20px;
+}
+main .article-left p {
+    color: orangered;
+    text-shadow: 1px 1px 1px orange;
+    text-align: justify;
+
+}
+main .article-left input, main .article-left textarea {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+main .article-left label {
+    display: inline-block;
+    width: 45%;
+    margin: 3px;
+    margin-top: 10px;
+}
+main .article-left .btns input {
+    margin-top: 15px;
+    padding: 5px;
+}
+main .article-right {
+  width: 50%;
+}
+main aside {
+  width: 34%;
+}
+main aside img {
+  width: 90%;
+}
+/* article */
+/* article left  */
+/* article right  */
+/* aside  */
+/* footer  */
