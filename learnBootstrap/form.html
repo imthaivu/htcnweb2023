@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col">
+              <label
+                >Ten
+                <input
+                  type="text"
+                  placeholder="nhap ten cua ban"
+                  class="form-control"
+                />
+              </label>
+            </div>
+            <div class="col">
+              <label
+                >Ho
+                <input
+                  type="text"
+                  placeholder="nhap ho cua ban"
+                  class="form-control"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mail">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="mail"
+              class="form-control"
+              placeholder="nhap email cua ban"
+              aria-describedby="helpId"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">mat khau</label>
+            <input
+              type="password"
+              name=""
+              id="password"
+              class="form-control"
+              placeholder="nhap mat khau cua ban"
+              aria-describedby="helpId"
+            />
+            <small id="helpId" class="text-muted">Help text</small>
+          </div>
+          <div class="form-group">
+            <label for="noi-song">noi song</label>
+            <select name="noi-song" id="noi-song" class="form-control">
+              <option value="tphcm" selected>tphcm</option>
+              <option value="danang">danang</option>
+              <option value="hanoi">hanoi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Giới tính </label>
+            <div>
+              <label for="nam" class="mr-3"
+                >Nam
+                <input type="radio" id="nam" name="gioi-tinh" />
+              </label>
+              <label for="nu" class="mr-3"
+                >Nu
+                <input type="radio" id="nu" name="gioi-tinh" />
+              </label>
+            </div>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="./js/jquery-3.7.1.min.js"></script> -->
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+  </body>
+</html>

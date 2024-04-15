@@ -1,200 +1,131 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
-
-.wrapper{
-    width: 1080px;
-    height: 880px;
-    border: 2px solid #000;
+body {
+  display: flex;
+  justify-content: center;
 }
-
-header{
-    height: 70px;
-    background-color: rgba(172,75,22,255);
-    border-bottom: 2px solid #000;
+/* wrapper */
+.wrapper {
+  width: 70%;
+  /* height: 800px; */
+  border: 1px solid black;
 }
-
-header h1{
-    line-height: 70px;
-    font-size: 40px;
-    padding: 0 24px;
-    color: rgba(138,110,13,255);
-    text-shadow: -4px -6px 6px #fff;
+/* header  */
+header {
+  height: 70px;
+  background-color: #ad4c15;
 }
-
-nav{
-    height: 30px;
-    background-color: #fff;
-    border-bottom: 2px solid #000;
-    box-shadow: rgb(96 94 94) 0px 4px 10px 0px;
+header h1 {
+  color: #817a00;
+  text-shadow: 2px 2px 2px white;
 }
-
-nav li{
-    display: inline-block;
-    list-style-type: none;
+/* nav  */
+nav {
+  height: 25px;
 }
-
-nav li a{
-    display: block;
-    padding: 0 24px;
-    text-decoration: none;
-    color: rgba(172,75,22,255);
-    line-height: 30px;
+nav li {
+  margin: 0 15px;
+  display: inline-block;
 }
-
-section{
-    width: 100%;
-    height: 704px;
-    margin-top: 6px;
-    position: relative;
+nav li:hover {
+  background-color: orange;
 }
-
-
-section img{
-    height: 160px;
-    width: 100%;
+nav a {
+  color: orange;
+  text-decoration: none;
 }
-
-section .infor{
-    width: 660px;
-    height: 520px;
-    margin: 20px 0 0 0;
-    padding: 30px 20px 0;
-    border-right: 1px solid #c1c1c1;
+/* main  */
+main {
+  height: 550px;
 }
-
-section .infor h1{
-    color: #a18538;
-    font-size: 24px;
+main .la-cay {
+  height: 150px;
+  background-image: url(./img/line.png);
 }
-
-section .infor p{
-    color: #ac9d6e;
-    font-size: 20px;
-    margin: 24px 0 24px 70px;
-    padding-right: 12px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 1.5;
-    word-spacing: 12px;
+.main {
+  display: flex;
+  padding: 15px;
 }
-
-section .infor form{
-    margin: 40px 70px 0;
+/* content */
+main .content {
+  width: 70%;
+  border-right: 1px solid black;
 }
-
-section .infor .form-text{
-    margin: 24px 0;
-    position: relative;
+main .content h2 {
+  color: #9e7d2c;
 }
-
-.infor .form-text label{
-    color: rgb(0, 0, 0, 0.5);
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    font-size: 18px;
+main .content p {
+  color: #bfb56e;
+  width: 80%;
+  margin-bottom: 30px;
 }
-
-.infor .form-text input{
-    width: 100%;
-    height: 34px;
-    border: none;
-    border-bottom: 1px solid #c1c1c1;
+main form input {
+  display: block;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  padding: 10px;
 }
-
-.infor > form > input{
-    width: 134px;
-    height: 34px;
-    font-size: 16px;
-    line-height: 34px;
-    background-color: #807f01;
-    border: none;
-    margin-top: 26px;
-    color: #fff;
+#button-sign {
+  background-color: #808000;
+  padding: 5px;
+  color: white;
+  border: none;
+  display: inline-block;
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 70px;
 }
-
-section .link{
-    width: 418px;
-    padding: 30px 50px 0px;
-    position: absolute;
-    top: 184px;
-    right: 0px;
-}   
-
-section .link .links{
-    background-color: #FAEBD8;
-    border-radius: 20px 20px 0 0 ;
-    padding: 8px 0px;
+/* right */
+main .right {
+  width: 30%;
+  padding: 20px;
 }
-
-section .links h1{
-    color: #694538;
-    font-size: 24px;
-    margin: 0 0 40px 14px;
+main .right ul {
+  list-style-type: square;
+  margin-left: 40px;
 }
-
-section .links ul{
-    padding-left: 70px;
+main .right h2 {
+  margin: 20px 0;
+  color: #4d3c40;
 }
-
-section .links li{
-    color: #694538;
-    font-size: 18px;
-    line-height: 1.5;
-    list-style-type: square;
+main .right .top {
+  background-color: #fde9d4;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 0 10px;
 }
-
-section .more-infor{
-    margin-top: 24px;
-    padding: 0 16px;
+.bot .ben-ngoai-anh {
+  padding: 5px;
+  border: 1px solid black;
+  float: left;
+  width: 60px;
+  margin: 10px;
 }
-
-section .more-infor h1{
-    margin-bottom: 16px;
-    font-size: 24px;
-    color: #694538;
+.bot .ben-ngoai-anh img {
+  width: 100%;
+  margin: auto;
 }
-
-section .more-infor .img{
-    width: 120px;
-    height: 84px;
-    padding: 4px;
-    border: 2px solid #000;
-    float: left;
-    margin-right: 24px;
+/* footer */
+footer {
+  width: 100%;
+  height: 66px;
+  /* background-image: url(img/corner1.png), url(img/corner3.png),
+    url(img/corner2.png), url(img/footer.png), url(img/corner4.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, no-repeat;
+  background-size: 80px, 90px, 100px, 210px, 105px;
+  background-position: top left, top right, bottom left, top, bottom right; */
+  background-image: url(img/corner1.png), url(img/corner2.png), url(img/corner3.png), url(img/corner4.png), url(img/footer.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
+  background-size: 80px, 80px, 80px, 140px, 200px;
+  background-position: top left, bottom left, top right, top right, top;
 }
-
-section .links li {
-    color: #AA7B5B;
+footer h3 {
+  text-align: center;
+  line-height: 60px;
 }
-section .more-infor img{
-    width: 109px;
-    height: 74px;
-}
-
-section .more-infor p{
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-footer{
-    width: 100%;
-    height: 66px;
-    background-image: url(img/corner1.png), url(img/corner3.png), url(img/corner2.png), url(img/footer.png), url(img/corner4.png);
-	background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, no-repeat;
-	background-size: 80px, 90px ,100px, 210px, 105px;
-	background-position: top left, top right, bottom left, top , bottom right;
-}
-
-footer p{
-    font-size: 18px;
-    line-height: 66px;
-    text-align: center;
-}
-
-
